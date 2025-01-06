@@ -27,7 +27,7 @@ def generate_report(machines):
   for machine, users in machines.items():
     if len(users) > 0:
       user_list = ", ".join(users)
-      print("{}: {}".format(machine, user_list))
+      print("{} is currently logged in on {}".format(user_list, machine))
 
 class Event:
   def __init__(self, event_date, event_type, machine_name, user):
