@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """Crash Course on Python: Module 6 project.ipynb
-
 """
 
 def get_event_date(event):
